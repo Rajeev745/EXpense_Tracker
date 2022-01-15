@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Footer from "./components/footer";
-import Header from "./components/header";
-import AddExpense from "./pages/add-expense";
-import Home from "./pages/home/index";
+import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
+import AddExpense from "./pages/AddExpense/AddExpense";
+import Home from "./pages/Home/Home";
 
 const App = () => {
   return (

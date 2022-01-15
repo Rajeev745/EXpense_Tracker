@@ -1,5 +1,5 @@
 .card {
-    background: white;
+  background-image: linear-gradient(to right,rgb(146, 141, 141), white);
     padding: 12px;
     margin: 2px 0px;
     border-radius: 6px;

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { toast, ToastContainer } from "react-toastify";
-import Card from "./card";
+import Card from "./Card";
 import "./expense-list.css";
 const ExpenseList = () => {
   const { expenseList: list, query } = useSelector((state) => state.expenses);
@@ -28,7 +28,7 @@ const ExpenseList = () => {
             alt="No Expenses"
             className="empty-image"
           />
-          <label>Uh Oh! Your expense list is empty.</label>
+          <label><em>Your List is empty</em></label>
         </div>
       )}
     </div>

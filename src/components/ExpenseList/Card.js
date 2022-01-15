@@ -33,7 +33,7 @@ const Card = ({ item, notifySuccess }) => {
           <label className="card-amount">₹ {item.amount}</label>
         </div>
         <div className="delete-icon" onClick={handleDelete}>
-          <i class="fi-rr-trash"></i>
+        <i class="fas fa-trash-alt"></i>
         </div>
       </div>
     </div>

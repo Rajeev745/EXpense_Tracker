@@ -1,6 +1,8 @@
 .header-container {
-    width: 50%;
+    width: 100%;
+    height: 8vh;
     margin: auto;
+    background-color: black;
   }
   .header {
     display: flex;
@@ -14,13 +16,19 @@
     align-items: center;
     font-size: 32px;
     font-weight: 500;
+    color: white;
   }
   .header-logo i {
     display: flex;
     align-items: center;
-    margin-left: 6px;
+    margin-left: 20px;
+    font-size: 3rem;
+    margin-top: 5px;
   }
-  
+  .header-logo em {
+    font-size: 2rem;
+    
+  }
   .header-button {
     font-size: 20px;
     display: flex;

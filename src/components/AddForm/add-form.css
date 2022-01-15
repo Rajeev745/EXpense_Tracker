@@ -1,6 +1,6 @@
 .add-form {
-    background: #71ccca;
-    box-shadow: 20px 20px 60px #60adac, -20px -20px 60px #82ebe8;
+  background-image: linear-gradient(to right,black, rgb(156, 151, 151));
+    
     margin: 6px 12px;
     padding: 24px;
     display: flex;

@@ -5,19 +5,19 @@ const Header = () => {
     <div className="header-container">
       <div className="header">
         <div className="header-logo">
-          Xpensr
-          <i class="fi-rr-credit-card" />.
+         <em> Expense Tracker</em> 
+         <i class="far fa-credit-card"></i>
         </div>
-        <div className="header-button">
+        <button className="header-button">
           <a
-            href="https://github.com/shuvamk"
+            href="https://github.com/Rajeev745"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i class="devicon-github-original colored" />
             Star
           </a>
-        </div>
+        </button>
       </div>
     </div>
   );

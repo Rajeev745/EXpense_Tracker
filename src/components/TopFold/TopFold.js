@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import "./top-fold.css";
+import "./Top-fold.css";
 import { useDispatch } from "react-redux";
 import { searchExpense } from "../../redux/actions/expenses";
 const TopFold = () => {
@@ -15,7 +15,7 @@ const TopFold = () => {
       {window.location.pathname === "/" ? (
         <div className="home-topfold">
           <div className="searchbar">
-            <i class="fi-rr-search"></i>
+          <i class="fas fa-search"></i>
             <input
               placeholder="Search for expenses"
               value={query}
@@ -23,25 +23,25 @@ const TopFold = () => {
             />
           </div>
           <Link to="/add-expense">
-            <div className="add-button">
-              <i class="fi-rr-add"></i>
+            <button className="add-button">
+            <i class="fas fa-plus"></i>
               <label>Add</label>
-            </div>
+            </button>
           </Link>
         </div>
       ) : (
         <div className="add-topfold">
           <Link to="/">
-            <div className="add-topfold-button">
-              <i class="fi-rr-angle-left"></i>
+            <button className="add-topfold-button">
+            <i class="fas fa-chevron-left"></i>
               <label>Back</label>
-            </div>
+            </button>
           </Link>
           <Link to="/">
-            <div className="add-topfold-button">
-              <i class="fi-rr-cross-circle"></i>
+            <button className="add-topfold-button">
+            <i class="far fa-window-close"></i>
               <label>Cancel</label>
-            </div>
+            </button>
           </Link>
         </div>
       )}

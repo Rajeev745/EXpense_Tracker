@@ -5,7 +5,7 @@ import "./add-form.css";
 import { toast, ToastContainer } from "react-toastify";
 import { useDispatch } from "react-redux";
 import { addExpense } from "../../redux/actions/expenses";
-import SuccessModal from "./success-modal";
+import SuccessModal from "./SuccessModal";
 
 const AddForm = () => {
   const [categoryOpen, setCategoryOpen] = useState(false);
@@ -103,8 +103,9 @@ const AddForm = () => {
       </div>
       <div className="form-add-button">
         <div onClick={handleSubmit}>
+        <i class="fas fa-plus"></i>
           <label>Add</label>
-          <i class="fi-rr-paper-plane"></i>
+          
         </div>
       </div>
     </div>

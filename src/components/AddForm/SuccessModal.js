@@ -11,7 +11,8 @@ const SuccessModal = ({ modalOpen, setModalOpen }) => {
       bottom: "auto",
       marginRight: "-50%",
       transform: "translate(-50%, -50%)",
-      backgroundColor: "#71ccca",
+      backgroundImage: "linear-gradient(to top,black, red)",
+    
       borderRadius: "12px",
     },
   };
@@ -25,10 +26,10 @@ const SuccessModal = ({ modalOpen, setModalOpen }) => {
           className="added-image"
         />
         <Link to="/">
-          <div className="take-home-button">
-            <i class="fi-rr-home"></i>
+          <button className="take-home-button">
+            <i class="fas fa-home"></i>
             Home
-          </div>
+          </button>
         </Link>
       </div>
     </Modal>

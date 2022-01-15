@@ -6,4 +6,6 @@ footer {
     justify-content: center;
     align-items: center;
     padding-bottom: 6px;
+    background-color: black;
+    color: white;
   }

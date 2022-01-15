@@ -1,6 +1,6 @@
 import React from "react";
-import AddForm from "../../components/add-form";
-import TopFold from "../../components/top-fold";
+import AddForm from "../../components/AddForm/AddForm";
+import TopFold from "../../components/TopFold/TopFold";
 import "./add-expense.css";
 const AddExpense = () => {
   return (
